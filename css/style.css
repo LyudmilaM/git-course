@@ -51,6 +51,10 @@ body {
   margin: 0 auto;
 }
 
+.header__inner {
+  background-color: #fff;
+}
+
 .menu {
   list-style: none;
   display: flex;
@@ -166,6 +170,12 @@ body {
   line-height: 22px;
   letter-spacing: 0.02em;
   color: #b7b7b7;
+}
+
+@media screen and (max-width: 1150px) {
+  body {
+    background-color: green;
+  }
 }
 
 @media screen and (max-width: 1150px){
